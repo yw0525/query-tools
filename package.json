@@ -1,0 +1,19 @@
+{
+  "name": "query-tools",
+  "version": "1.0.0",
+  "description": "database query tools",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yw0525/query-tools.git"
+  },
+  "keywords": ["database", "sql", "query", "typeorm", "rollup"],
+  "author": "月落",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yw0525/query-tools/issues"
+  },
+  "homepage": "https://github.com/yw0525/query-tools#readme"
+}
