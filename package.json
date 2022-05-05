@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "rollup -cw",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "test": ""
   },
   "repository": {
     "type": "git",
@@ -27,10 +28,13 @@
   "dependencies": {
     "rollup": "^2.72.0",
     "rollup-plugin-terser": "^7.0.2",
-    "typeorm": "^0.3.6",
-    "typescript": "^4.6.4"
+    "typeorm": "^0.3.6"
   },
   "devDependencies": {
-    "mssql": "^8.1.0"
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "mssql": "^8.1.0",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "typescript": "^4.6.4"
   }
 }

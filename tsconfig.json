@@ -5,7 +5,7 @@
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "target": "ESNext",
-    "module": "commonjs",
+    "module": "ESNext",
     "moduleResolution": "node",
     "importHelpers": true,
     "emitDecoratorMetadata": true,
@@ -22,8 +22,7 @@
     "downlevelIteration": true
   },
   "include": [
-    "src",
-    "test"
+    "src"
   ],
   "exclude": [
     "node_modules"

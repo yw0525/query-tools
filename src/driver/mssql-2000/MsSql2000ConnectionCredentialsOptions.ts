@@ -5,4 +5,4 @@ export type MsSql2000ConnectionCredentialsAuthenticationOptions = SqlServerConne
 /**
  * SqlServer 2000 specific connection credential options.
  */
-export default interface MsSql2000ConnectionCredentialsOptions = SqlServerConnectionCredentialsOptions;
+export default interface MsSql2000ConnectionCredentialsOptions extends SqlServerConnectionCredentialsOptions {}
