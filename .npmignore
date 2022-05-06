@@ -6,7 +6,7 @@ build/
 test/
 
 # lint
-husky/
+.husky/
 
 # dependencies
 node_modules/
