@@ -1,7 +1,7 @@
 {
   "name": "query-tools",
   "version": "0.0.4",
-  "description": "database query tools",
+  "description": "数据库查询工具",
   "main": "index.js",
   "scripts": {
     "dev": "rollup -cw",
