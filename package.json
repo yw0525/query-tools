@@ -1,6 +1,6 @@
 {
   "name": "query-tools",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "database query tools",
   "main": "index.js",
   "scripts": {
