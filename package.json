@@ -1,12 +1,15 @@
 {
   "name": "query-tools",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "database query tools",
   "main": "index.js",
   "scripts": {
     "dev": "rollup -cw",
     "build": "rollup -c",
-    "test": ""
+    "test": "jest",
+    "cz": "git add ./ && git cz",
+    "postcz": "git push",
+    "release": "sh build/releash.sh"
   },
   "repository": {
     "type": "git",
@@ -31,10 +34,18 @@
     "typeorm": "^0.3.6"
   },
   "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-typescript": "^7.16.7",
     "@rollup/plugin-commonjs": "^22.0.0",
     "@rollup/plugin-node-resolve": "^13.3.0",
+    "@types/jest": "^27.5.0",
+    "babel-jest": "^28.0.3",
+    "jest": "^28.0.3",
     "mssql": "^8.1.0",
+    "mysql": "^2.18.1",
     "rollup-plugin-typescript2": "^0.31.2",
+    "ts-jest": "^28.0.1",
     "typescript": "^4.6.4"
   }
 }

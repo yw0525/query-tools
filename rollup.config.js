@@ -7,6 +7,10 @@ export default {
   input: ['src/index.ts'],
   output: [
     {
+      dir: "dist",
+      format: "esm",
+    },
+    {
       dir: "lib",
       format: "cjs",
       exports: "auto",
