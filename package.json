@@ -9,7 +9,7 @@
     "test": "jest",
     "cz": "git add ./ && git cz",
     "postcz": "git push",
-    "release": "sh build/releash.sh"
+    "release": "sh build/release.sh"
   },
   "repository": {
     "type": "git",
