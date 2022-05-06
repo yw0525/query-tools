@@ -1,5 +1,19 @@
-node_modules/
+# main
 src/
-test/
 build/
+
+# test
+test/
+
+# lint
 husky/
+
+# dependencies
+node_modules/
+
+# Wakatime
+*.wakatime*
+
+# other
+*.config.js
+tsconfig.json
