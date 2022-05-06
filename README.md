@@ -48,7 +48,7 @@ const dataSource = createDataSource({
 
   const ans = await dataSource.query('select * from test');
 
-	console.log(ans);
+  console.log(ans);
   
   await dataSource.destroy();
 })();
